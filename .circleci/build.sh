@@ -4,7 +4,7 @@ git clone -b barutut --depth=1 https://github.com/Assunzain/Kernel_asus_X01AD X0
 git clone --depth=1 https://github.com/kdrag0n/proton-clang -b master clang
 
 # Main
-KERNEL_NAME=KSU-SUSFS-Kernal # IMPORTANT ! Declare your kernel name
+KERNEL_NAME=KSU-SUSFS-Kernl # IMPORTANT ! Declare your kernel name
 KERNEL_ROOTDIR=$(pwd)/X01AD # IMPORTANT ! Fill with your kernel source root directory.
 DEVICE_CODENAME=X01AD # IMPORTANT ! Declare your device codename
 DEVICE_DEFCONFIG=X01AD_defconfig # IMPORTANT ! Declare your kernel source defconfig file here.
