@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "Downloading few Dependecies  . ."
 git clone -b 12 --depth=1 https://github.com/Assunzain/Kernel_asus_X01AD X01AD
-git clone --depth=1 https://gitlab.com/LeCmnGend/proton-clang -b clang-15 clang
+git clone -b master --depth=1 https://github.com/Assunzain/zyc_clang-14 clang
 
 # Main
 KERNEL_NAME=SUSFS-Kernel # IMPORTANT ! Declare your kernel name
