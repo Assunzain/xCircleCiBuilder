@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 echo "Downloading few Dependecies  . ."
 git clone -b KSU-SUSFS --depth=1 https://github.com/Assunzain/Kernel_asus_X01AD X01AD
-wget https://github.com/ZyCromerZ/Clang/releases/download/15.0.0-20220207-release/Clang-15.0.0-20220207.tar.gz
+wget https://github.com/ZyCromerZ/Clang/releases/download/15.0.0-20220217-release/Clang-15.0.0-20220217.tar.gz
 mkdir clang
-tar zxvf Clang-15.0.0-20220207.tar.gz -C clang
+tar zxvf Clang-15.0.0-20220217.tar.gz -C clang
 
 # Main
 KERNEL_NAME=SUSFS-Kernel # IMPORTANT ! Declare your kernel name
