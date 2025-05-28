@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 echo "Downloading few Dependecies . . ."
 git clone -b  SUSFS-14 --depth=1 https://github.com/Assunzain/Kernel_asus_X01AD X01AD
-git clone --depth=1 https://gitlab.com/TheXPerienceProject/yuki_clang -b 17.0.0 clang
+wget https://github.com/ZyCromerZ/Clang/releases/download/21.0.0git-20250509-release/Clang-21.0.0git-20250509.tar.gz
+mkdir clang
+tar zxvf clang-r510928.tar.gz -C clang
 
 # Main
 KERNEL_NAME=UPDATE # IMPORTANT ! Declare your kernel name
