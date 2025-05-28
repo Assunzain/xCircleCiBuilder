@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 echo "Downloading few Dependecies . . ."
 git clone -b  SUSFS-14 --depth=1 https://github.com/Assunzain/Kernel_asus_X01AD X01AD
-wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-r510928.tar.gz
-mkdir clang
-tar zxvf clang-r510928.tar.gz -C clang
+git clone --depth=1 https://gitlab.com/TheXPerienceProject/yuki_clang -b 17.0.0 clang
 
 # Main
 KERNEL_NAME=UPDATE # IMPORTANT ! Declare your kernel name
